@@ -28,7 +28,18 @@
     border: 1px solid rgba(0, 106, 80, 1);
     cursor: pointer;
 }
-
+.headings{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.paragraph-for-all{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #0e0e0eb3;
+}
 /* nav bar style here */
 .nav-container{
     margin-top: 30px;
@@ -79,12 +90,6 @@
 #pillar-container{
     margin-top: 4.75rem;
 }
-.pillar-heading h2{
-    font-size: 40px;
-    line-height: 48px;
-    font-weight: 700;
-    margin-bottom: 2rem;
-}
 .pillar-card{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -97,20 +102,63 @@
     border-radius: 16px;
     box-shadow: 1px 2px 5px rgb(181, 156, 156);
 }
-.cards img{
+.cards img, .card-info img{
     width: 4rem;
     margin-bottom: 1.3rem;
 }
-.cards h4{
+.cards h4, .card-info h4{
     font-size: 20px;
     line-height: 24px;
     font-weight: 700;
     color: rgba(14, 14, 14, 0.8);
     margin-bottom: .80rem;
 }
-.cards p{
+.cards p, .card-info p{
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
-    color: rgba(14, 14, 14, 0.7);
+    color: #0e0e0eb3;
+}
+
+/* Vision of the Future styles */
+#vision{
+    margin-top: 4.75rem;
+}
+.vision-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.3rem;
+    margin-top: 2rem;
+}
+.card-info{
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 2rem;
+}
+.card-1{
+    background: rgba(84, 144, 245, 0.2);
+}
+.card-2{
+    background: rgba(198, 228, 214, 1);
+}
+.card-3{
+    background: rgba(247, 235, 207, 1);
+}
+.btn-sky-learn{
+    background: rgba(84, 144, 245, 1);
+    color: #fff;
+    border: none;
+    margin-top: 1.5rem;
+}
+.btn-green-learn{
+    background: rgba(9, 161, 92, 1);
+    color: #fff;
+    border: none;
+    margin-top: 1.5rem;
+}
+.btn-yellow-learn{
+    background: rgba(255, 194, 57, 1);
+    color: #fff;
+    border: none;
+    margin-top: 1.5rem;
 }
