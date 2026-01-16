@@ -74,3 +74,43 @@
     background-color: rgba(0, 106, 80, 1);
     color: #fff;
 }
+
+/* pillar section style */
+#pillar-container{
+    margin-top: 4.75rem;
+}
+.pillar-heading h2{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.pillar-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.3rem;
+}
+.cards{
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    box-shadow: 1px 2px 5px rgb(181, 156, 156);
+}
+.cards img{
+    width: 4rem;
+    margin-bottom: 1.3rem;
+}
+.cards h4{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: .80rem;
+}
+.cards p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
